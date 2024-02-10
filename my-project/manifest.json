@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "ieatBackground",
+    "description": "add a custom background",
+    "version": "1.0",
+    "icons": {
+        "16": "/images/nerd-face16.png",
+        "48": "/images/nerd-face48.png",
+        "128": "/images/nerd-face128.png"
+    },
+    "page_action": {
+        "default_icon": {
+            "16": "/images/nerd-face16-2.png",
+            "48": "/images/nerd-face48-2.png",
+            "128": "/images/nerd-face128-2.png"          
+        }
+    },
+    "content_scripts": [{
+        "matches": ["https://www.google.com/*"],
+        "css" : ["main.css"]
+    }]
+  }
