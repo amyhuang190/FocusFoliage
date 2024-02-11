@@ -1,0 +1,58 @@
+#headerContainer {
+    text-align: center;
+}
+#mainContainer{
+    text-align: center;
+    
+    
+}
+
+#submitButtonHolder{
+    
+    margin-bottom: 5%;
+    margin-top:15%
+}
+#instructions{
+    margin-bottom: 0px;
+
+}
+#inputHolder{
+    margin: 5%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#startButtonHolder{
+    margin:5%
+}
+.listItem {
+    text-align: left;
+    margin-left: 20%;
+}
+body{
+    background: #f3e1b7;
+    
+}
+
+#displayFrame{
+    margin:0;
+    padding:0;
+    overflow:"hidden";
+    width:220px;
+    height:240px;
+    border-radius: 20px;
+
+}
+#iFrameContainer{
+    display:inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+html {
+    width:230px;
+    height:250px;
+}
+
+#waterButton {
+    text-align:center;
+    margin-bottom: 100px;
+}

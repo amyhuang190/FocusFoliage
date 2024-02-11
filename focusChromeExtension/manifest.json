@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Focus",
+  "description": "Extension that helps you focus.",
+  "version": "1.0",
+  "icons": {
+    "16": "plant_logo/alive-16.png",
+    "32": "/plant_logo/alive-32.png",
+    "48": "/plant_logo/alive-48.png",
+    "128": "/plant_logo/alive-128.png"
+  },
+  
+  "permissions": ["tabs"],
+  "action": {
+      "default_popup":"./plant/plant.html"
+  },"background": {
+    "service_worker":"background.js"
+    
+  }
+}

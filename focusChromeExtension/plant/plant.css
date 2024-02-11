@@ -1,0 +1,39 @@
+#c2 {
+    width: 200px; /* Adjust width to make the box smaller */
+    height: 240px; /* Adjust height to make the box smaller */
+    color: brown;
+    text-align: center; 
+    background-color: #f3e1b7; /* Change background color of the container */
+    padding: 0; /* Add padding for better readability */
+    border-radius: 20px; /* Add rounded corners to the container */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Add a subtle shadow for depth */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    font-family: "Comic Sans MS", sans-serif;
+}
+img {
+    padding: 0;
+    margin-bottom: -5px;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    margin: 0;
+    padding: 0;
+}
+span {
+    margin: 0;
+    padding: 0;
+    padding-top: 0;
+}
+div {
+    margin: 0;
+    padding: 0;
+}
+#waterButton{
+    margin-top: 15px;
+}
+body{
+    background-color: #f3e1b7;
+}
